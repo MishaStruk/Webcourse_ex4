@@ -1,0 +1,87 @@
+*{
+    direction: rtl;
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: white;
+    text-align: right;
+    position:absolute;
+}
+#svgArea{
+    position:relative;
+    right:0;
+    top:0;
+
+}
+#studentSVG{
+    position:absolute;
+    right:600px;
+    width:500px;
+    height:500px;
+}
+input{
+    direction: rtl; 
+}
+
+#thinkDiv{
+    position:relative;
+    right:940px;
+    top:40px;
+    direction: rtl;
+    font-size: 12px;
+    font-size: 10px;
+}
+
+#passInput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    width:50px;
+  }
+
+
+
+.mainFormArea {
+    position:relative;
+    right:600px;
+    top:450px;   
+}
+.mainFormArea  *{
+    position: relative;
+}
+#previewArea {
+    position:relative;
+    right:600px;
+    top:500px;
+
+}
+#previewArea  *{
+    position: relative;
+}
+#previewArea  .fromH3{
+    display:inline-block;
+}
+#previewBox{
+    background-color: white;
+    width:400px;
+}
+
+#previewBox .fromDiv {
+        border-bottom: 2px solid gray;
+  }
+
+#previewExmpale p{
+    display:inline-block;
+}
+
+#chipAnswer,#noFDAAnswer,#protestAnswer,#sleepAnswer{
+    display:none;
+}
+.btn{
+    position:relative;
+    margin-top: 10px;
+    right:100px;
+}
+
+
